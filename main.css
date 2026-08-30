@@ -1498,7 +1498,7 @@ hr {
     .header-e-commerce-index img,
     .header-e-commerce-details img,
     .header-e-commerce-products img {
-        width: 87px;
+        width: 83px;
     }
 }
 
@@ -1507,7 +1507,7 @@ hr {
 .header-e-commerce-products {
     background-color: var(--card-bg);
     box-shadow: var(--shadow-sm);
-    padding: 4px 5%; 
+    padding: 3px 4%; 
     display: flex;
     justify-content: space-between;
     align-items: center;
