@@ -1486,3 +1486,18 @@ hr {
         padding: 40px 20px;
     }
 }
+
+@media (max-width: 768px) {
+    .header-e-commerce-index,
+    .header-e-commerce-details,
+    .header-e-commerce-products {
+        flex-direction: column;
+        gap: 0px; 
+        padding: 0px 4% 6px; 
+    }
+    .header-e-commerce-index img,
+    .header-e-commerce-details img,
+    .header-e-commerce-products img {
+        width: 87px;
+    }
+}
