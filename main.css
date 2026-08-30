@@ -1501,3 +1501,38 @@ hr {
         width: 87px;
     }
 }
+
+.header-e-commerce-index,
+.header-e-commerce-details,
+.header-e-commerce-products {
+    background-color: var(--card-bg);
+    box-shadow: var(--shadow-sm);
+    padding: 4px 5%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-e-commerce-index img,
+.header-e-commerce-details img,
+.header-e-commerce-products img {
+    width: 130px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.Nav-cards ul {
+    display: flex;
+    gap: 18px;
+}
+
+.Nav-cards a {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    transition: var(--transition);
+    position: relative;
+}
