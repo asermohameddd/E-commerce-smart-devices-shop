@@ -1492,13 +1492,13 @@ hr {
     .header-e-commerce-details,
     .header-e-commerce-products {
         flex-direction: column;
-        gap: 0px; 
-        padding: 0px 4% 6px; 
+        gap: 3px; 
+        padding: 2px 4% 2px; 
     }
     .header-e-commerce-index img,
     .header-e-commerce-details img,
     .header-e-commerce-products img {
-        width: 83px;
+        width: 88px;
     }
 }
 
@@ -1507,7 +1507,7 @@ hr {
 .header-e-commerce-products {
     background-color: var(--card-bg);
     box-shadow: var(--shadow-sm);
-    padding: 3px 4%; 
+    padding: 11px 5%; 
     display: flex;
     justify-content: space-between;
     align-items: center;
